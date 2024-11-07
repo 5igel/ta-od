@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {Button} from "@mui/material";
+import SendIcon from '@mui/icons-material/Send';
 
 export function Task() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,7 @@ export function Task() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <Button onClick={() => setCount((count) => count + 1)} variant="outlined">
+        <Button endIcon={<SendIcon />} onClick={() => setCount((count) => count + 1)} variant="outlined">
           count is {count}
         </Button>
         <p>
