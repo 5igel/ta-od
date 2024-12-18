@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: 'https://swapi.dev/',
+        target: 'https://swapi.tech/',
         changeOrigin: true,
         secure: false,
       },
