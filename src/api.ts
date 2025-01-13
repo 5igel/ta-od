@@ -1,4 +1,4 @@
-export const  getApi = async () => {
+export const  getApi = async (): Promise<unknown> => {
     try {
         // const response = await fetch('/api/people/');
         // return response.json();

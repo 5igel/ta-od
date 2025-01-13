@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Button} from "@mui/material";
 import SendIcon from '@mui/icons-material/Send';
+import {getApi} from "./api.ts";
 
 export function Task() {
   const [count, setCount] = useState(0)
