@@ -1,6 +1,6 @@
 import './App.css'
 import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
-import {Task} from "./Task.tsx";
+import {Task} from "./Task";
 
 const queryClient = new QueryClient()
 
