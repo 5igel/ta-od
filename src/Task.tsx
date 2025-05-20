@@ -3,8 +3,8 @@ import './App.css'
 import {Button} from "@mui/material";
 import SendIcon from '@mui/icons-material/Send';
 
-// signature async (): Promise<unknown>
-// import {getApi} from "./api";
+// type getCharacters = async (): Promise<unknown>
+// import {sdk} from "./sdk";
 
 export function Task() {
   const [count, setCount] = useState(0)

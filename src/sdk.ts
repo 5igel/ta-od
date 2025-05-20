@@ -1,4 +1,4 @@
-export const  getApi = async (): Promise<unknown> => {
+const  getCharacters = async (): Promise<unknown> => {
     try {
         // **************************************
         // **************************************
@@ -96,4 +96,8 @@ export const  getApi = async (): Promise<unknown> => {
     } catch (error) {
         console.error(error)
     }
+}
+
+export const sdk = {
+    getCharacters,
 }
